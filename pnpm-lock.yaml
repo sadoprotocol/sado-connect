@@ -36,8 +36,8 @@ importers:
         specifier: ^9.1.2
         version: 9.1.2
       bitcoinjs-lib:
-        specifier: 6.1.6
-        version: 6.1.6
+        specifier: 6.1.7
+        version: 6.1.7
       boring-avatars:
         specifier: ^1.11.2
         version: 1.11.2
@@ -1113,6 +1113,10 @@ packages:
 
   bitcoinjs-lib@6.1.6:
     resolution: {integrity: sha512-Fk8+Vc+e2rMoDU5gXkW9tD+313rhkm5h6N9HfZxXvYU9LedttVvmXKTgd9k5rsQJjkSfsv6XRM8uhJv94SrvcA==}
+    engines: {node: '>=8.0.0'}
+
+  bitcoinjs-lib@6.1.7:
+    resolution: {integrity: sha512-tlf/r2DGMbF7ky1MgUqXHzypYHakkEnm0SZP23CJKIqNY/5uNAnMbFhMJdhjrL/7anfb/U8+AlpdjPWjPnAalg==}
     engines: {node: '>=8.0.0'}
 
   bitcoinjs-message@2.2.0:
@@ -4092,6 +4096,15 @@ snapshots:
       sha256-uint8array: 0.10.7
 
   bitcoinjs-lib@6.1.6:
+    dependencies:
+      '@noble/hashes': 1.5.0
+      bech32: 2.0.0
+      bip174: 2.1.1
+      bs58check: 3.0.1
+      typeforce: 1.18.0
+      varuint-bitcoin: 1.1.2
+
+  bitcoinjs-lib@6.1.7:
     dependencies:
       '@noble/hashes': 1.5.0
       bech32: 2.0.0

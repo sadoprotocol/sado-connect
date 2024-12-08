@@ -48,7 +48,7 @@
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "bignumber.js": "^9.1.2",
-    "bitcoinjs-lib": "6.1.6",
+    "bitcoinjs-lib": "6.1.7",
     "boring-avatars": "^1.11.2"
   },
   "lint-staged": {
