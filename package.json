@@ -22,7 +22,7 @@
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
   },
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@9.15.4",
   "pnpm": {
     "overrides": {
       "eslint-plugin-react-hooks": "5.0.0"
